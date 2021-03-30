@@ -1,0 +1,26 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-group {
+    padding: 20px;
+}
+
+.card{
+    background:linear-gradient(to bottom, #7892c2 5%, #ba69f0 100%);
+    justify-content: center;
+    
+}
+
+.card-title{
+    margin-top: 2%;
+    color: white;
+    font-size: 2rem;
+}
+
+.contact{
+    margin-top: 250px;
+    justify-content: center;
+}

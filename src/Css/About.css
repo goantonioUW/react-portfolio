@@ -1,0 +1,13 @@
+.card-text{
+    color: white;
+    font-size: 2rem;
+}
+
+.card-title{
+    color: transparent;
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(217, 0, 255, 0.5);
+}

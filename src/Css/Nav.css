@@ -1,0 +1,61 @@
+
+/********************NAVBAR*************************/
+nav{
+    z-index: 2;
+    height: 50px;
+  }
+
+  #name {
+      right: 15px;
+  }
+
+  .name-logo {
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 4rem;
+    height: 3rem;
+    position: absolute;
+    opacity: .5;
+    top: 2px;
+    left: 30px;
+  }
+  
+  /*----NAV-LINKS----*/
+  
+  .navbar-nav {
+    position: flex;
+    justify-content: space-around;
+  }
+  
+  nav a.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+  }
+  
+  nav h1 {
+    color: var(--primary-purple);
+  }
+  
+  nav ul li {
+    left: 30px;
+  }
+  
+  .navbar-nav>li>a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid var(--primary-dark);
+  }
+  
+  .navbar-nav>li>a.active, .navbar-nav>li>a.active:focus {
+    border-top: 0.1875rem solid var(--primary-purple);
+  }
+  
+  .navbar-nav>li>a:hover {
+    border-top: 0.1875rem solid var(--primary-purple);
+  }
+  
