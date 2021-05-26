@@ -18,16 +18,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <link className="nav-link" href="/">Home</link>
+                            <a className="nav-link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <link className="nav-link" href="/AboutMe">About me</link>
+                            <a className="nav-link" href="/AboutMe">About me</a>
                         </li>
                         <li className="nav-item">
-                            <link className="nav-link" href="/Projects">Projects</link>
+                            <a className="nav-link" href="/Projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <link className="nav-link" href="/Contact">Contact</link>
+                            <a className="nav-link" href="/Contact">Contact</a>
                         </li>
                         
                         
